@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Montserrat:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image: url(img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 687px;
+    background-position: center;
+}
+.container__box{
+    max-width: 1011px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.navbar__box{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .opis ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    user-select: none;
+}
+.opis li{
+    padding: 12px 16px;
+}
+.opis a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+/* сторона main наполнения */
+.main__box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.left__box{
+    margin-top: 50px;
+    color: white;
+    flex-wrap: wrap;
+    width: auto;
+}
+.glavnopis__box h3,h4 {
+    font-size: 6em;
+    font-weight: 900;
+}
+.glavnopis__box h3{
+    color: #130e27;
+}
+.vtoroe{
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 400px;
+    margin-top: 40px;
+}
+.right__box{
+    margin-top: 150px;
+    width: 400px;
+}
+.table__box{
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    height: 500px;
+    border-radius: 12px;
+    padding: 6px;
+}
+.table__box div{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    padding:16px 0;
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+}
+.table__box li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.table__box li:nth-child(6){
+    display: flex;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    margin: 0 16px 0 0;
+}
+input,select{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 0 0 0 6px;
+    border: none;
+    color: gray;
+}
+li>span{
+    color: gray;
+}
+select{
+    height: 20px;
+}
+input{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+.submit{
+    padding: 0;
+    margin: 20px 0 0 0;
+    background-color: lightcoral;
+    border-radius: 12px;
+    color: black;
+    font-size: 1rem;
+}
+/* MAIN */
+.glavnopis{
+    font-size: 4em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+    color: darkred;
+}
+.services__box{
+    height: 450px;
+}
+.serv__photo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.span__text{
+    width: 165px;
+    text-align: center;
+}
+.glavnopis{
+    padding-top: 40px;
+}
+.glavnopis span{
+    color: #130e27;
+}
+/* Задаю размеры класса картинок */
+.services__img__one{
+    width: 163px;
+    height: 190px;
+    margin: 0 auto;
+}
+.services__img__two{
+    width: 137px;
+    height: 190px;
+    margin: 0 auto;
+}
+.services__img__three{
+    width: 116px;
+    height: 190px;
+    margin: 0 auto;
+}
+.services__img__four{
+    width: 150px;
+    height: 190px;
+    margin: 0 auto;
+}
+/* Small story */
+.our__story{
+    width: 100%;
+    height: 120px;
+    background-color: #130e27;
+}
+.cont__story{
+    justify-content: space-between;
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+.container__box__story{
+    max-width: 1011px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.left__story{
+    color: white;
+    width: 580px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right__story button{
+    color: white;
+    width: 269px;
+    height: 64px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 14px;
+    border: none;
+    background-color: darkred;
+}
+.left__story:hover{
+    color: red;
+    transition: all 0.2s linear;
+}
+.right__story button:hover{
+    transition: all 0.2s linear;
+    background-color: ghostwhite;
+    color: black;
+}
+.right__story button:active{
+    filter: brightness(60%);
+}
